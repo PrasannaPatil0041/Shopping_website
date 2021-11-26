@@ -1,0 +1,6 @@
+#footer {
+  box-shadow: var(--shadow);
+  background-color: var(--negative);
+  z-index: 50;
+  position: relative;
+}

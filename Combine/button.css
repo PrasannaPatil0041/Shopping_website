@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+  button {
+    width: 100%;
+  }
+}
+
+button {
+  outline: none;
+  border: none;
+  transform: scale(1);
+  padding: var(--spaceSM) var(--spaceSM);
+  background-color: var(--accent);
+  border-radius: var(--roundXL);
+  color: var(--negative);
+}
+
+button:hover {
+  background-color: var(--accentHover);
+  padding: var(--spaceSM) var(--spaceSM);
+  transform: scale(1.2);
+}
+button a {
+  pointer-events: none;
+  cursor: pointer;
+  text-decoration: none;
+}

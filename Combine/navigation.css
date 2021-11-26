@@ -1,0 +1,16 @@
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--negative);
+  box-shadow: var(--shadow);
+  border-radius: 0 0 var(--roundXL) var(--roundXL);
+}
+#main {
+  margin-top: 280px;
+}
+@media (min-width: 700px) {
+  #main {
+    margin-top: 130px;
+  }
+}
